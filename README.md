@@ -5,8 +5,6 @@
 | 15  | 23.04.2021  23:59|
 
 
-Rozwiązania do zadań zamieść w repozytorium użytym podczas pierwszych ćwiczeń.
-
 
 ## Zadanie 1 (1 punkt)
 
