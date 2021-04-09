@@ -8,19 +8,19 @@
 Rozwiązania do zadań zamieść w repozytorium użytym podczas pierwszych ćwiczeń.
 
 
-##Zadanie 1 (1 punkt)
+## Zadanie 1 (1 punkt)
 
 Zaimplementuj **abstrakcyjną** klasę `Maszyna` z chronionymi atrybutami `marka`, `nazwa`, `pojemnoscSilnika` i `rodzajSilnika`. 
 Ten ostatni ma być enumeracją.
 
-##Zadanie 2 (2 punkty)
+## Zadanie 2 (2 punkty)
 
 Zaimplementuj klasę `Lokomotywa` dziedziczącą po maszynie. 
 Klasa ta ma dodawać dwa prywatne atrybuty charakterystyczne dla lokomotyw i nieuwzględnione wcześniej w maszynie. 
 Klasa ta ma mieć konstruktor, przyjmujący komplet 6 parametrów oraz metodę `wyswietl`, 
 wyrzucającą w zamyśle na ekran wyczerpujący opis danej lokomotywy.
 
-##Zadanie 3 (3 punkty)
+## Zadanie 3 (3 punkty)
 
 Uzupełnij repozytorium o klasę `Kosiarka`, która:
 - dziedziczy z maszyny;
@@ -28,7 +28,7 @@ Uzupełnij repozytorium o klasę `Kosiarka`, która:
 - posiada, analogicznie jak klasa `Kosiarka`, jeden konstruktor i metodę `wyswietl`, która wyświetla komplet 7 atrybutów w zorganizowanej formie;
 - dodatkowo, klasa ma zawierać metody *set* dla wszystkich trzech nowowprowadzanych atrybutów.
 
-##Zadanie 4 (2 punkty)
+## Zadanie 4 (2 punkty)
 
 Ostatnią klasą dziedziczącą bezpośrednio z maszyny jest klasa `Pojazd`. 
 Klasa zawierać będzie pojedynczy konstruktor, standardową metodę wyświetlającą oraz chronione atrybuty typu double `moc` 
@@ -37,7 +37,7 @@ Konstruktor ma realizować autonumerowanie pojazdów. W tym celu należy posłu�
 `nrPojazdu` oraz `maxLiczbaPojazdow` (ten ostatni statyczny). 
 Metoda wyświetlająca ma uwzględniać obie wskazane informacje, np. *Pojazd 7 z 12...*.
 
-##Zadanie 5 (4 punkty)
+## Zadanie 5 (4 punkty)
 
 Z klasy `Pojazd` dziedziczą `Samochod` (dodatkowe atrybuty `segment` i `VIN`) oraz `Jednoslad` (dodatkowy atrybut `typ`). 
 Obie wspomniane klasy wykorzystują autorskie enumeracje i zostają wyposażone w konstruktory oraz metody `wyswietl`, 
@@ -47,14 +47,14 @@ W szczególności, klasy te powinny mieć konstruktory pobierające odpowiednio 
 który nie pobiera wszystkich atrybutów (z uwagi na specyficzną logikę opisu rowerów i hulajnóg tradycyjnych). 
 Metoda wyświetlająca klasy `Jednoślad` ma pomijać wartości niewprowadzone.
 
-##Zadanie 6 (2 punkty)
+## Zadanie 6 (2 punkty)
 
 W metodzie głównej klasy `ParkMaszynowy` zadeklarować po 2 obiekty każdej klasy, w stosunku do której jest to możliwe. 
 Wszystkie obiekty trafiają do **pojedynczej** kolekcji i są wyświetlane pętlą *for each*. 
 Jakiej modyfikacji należy dokonać w klasie `Maszyna`, aby było to możliwe? 
 Wykorzystaj dodolną metodę *set* obiektu klasy `Kosiarka` i wyświetl ten obiekt ponownie.
 
-##Zadanie 7 (1 punkt)
+## Zadanie 7 (1 punkt)
 
 Strukturę klas, atrybutów i operacji zwizualizuj jako diagram klas UML. 
 Narzędzie dowolne, można wykorzystać np. webowe rozwiązanie *draw.io*. 
